@@ -1,0 +1,136 @@
+@import "~antd/lib/style/themes/default.less";
+
+.main {
+  width: 468px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 10px 50px 30px 50px;
+  margin-top:50px;
+  background-position: bottom;
+  background-size: 468px;
+
+  .icon {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.2);
+    margin-left: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+      color: @primary-color;
+    }
+  }
+
+  .other {
+    text-align: left;
+    margin-top: 24px;
+    line-height: 22px;
+
+    .register {
+      float: right;
+    }
+  }
+  .ant-btn-primary{
+    background-color: #00518b; 
+  }
+}
+.bgColor{
+  height: 15rem;
+  overflow: hidden;
+  position: relative;
+}
+.bgColor img{
+  width: 100%;
+}
+.bgColor .title{
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: bold;
+}
+.bgColor .title h1{
+  font-size: 50px;
+  color: #fff;
+}
+.bgColor .title p{
+  font-size: 22px;
+  color: #fff;
+}
+.UserName{
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+  border: 1px solid #042842;
+  padding: 0 0 0 48px;
+  position: relative;
+  background-size: 40px 40px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  color: #042842;
+  font-size: 12px;
+}
+.PassWord{
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+  border: 1px solid #042842;
+  margin: 14px 0 0 0;
+  padding: 0 0 0 48px;
+  position: relative;
+  background-size: 40px 40px;
+  background-position: left top;
+  background-repeat: no-repeat;
+  color: #042842;
+  font-size: 12px;
+}
+.submitButton{
+  width: 100%; 
+  height: 40px;
+  background: #00518b;
+  border: 0;
+  margin: 28px 0 0 0;
+  color: #fff;
+  font-size: 18px;
+}
+.chooseSubmit::after{
+  display:block;
+  clear:both;
+  content:""
+}
+.chooseSubmit{
+  line-height: 50px;
+  text-align: center;
+  margin: 0 0 28px 0;
+}
+.chooseSubmit span{
+  float: left;
+  width: 50%;
+  border-bottom: 3px solid #E5E9EC;
+  cursor: pointer;
+  font-size: 18px;
+}
+.chooseSubmit span.active{
+  border-bottom: 3px solid #00518B
+}
+.codeImg{
+  text-align: center;
+}
+.codeImg img{
+  text-align: center;
+  width: 170px;
+}
+.codeImg p{
+  font-size: 16px;
+  color:#042842;
+}
+.bgShadow{
+  width: 468px;
+  margin: 0 auto;
+}
+.bgShadow img{
+  width: 468px;
+}
