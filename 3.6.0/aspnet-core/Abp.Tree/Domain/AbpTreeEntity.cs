@@ -10,6 +10,7 @@ namespace AbpTree.Domain
     public class AbpTreeEntity<T> : Entity<Guid>, IHasCreationTime,IHasDeletionTime,ICreationAudited,ISoftDelete
     {
         public const int NodeNameMaxLength = 128;
+
         [StringLength(NodeNameMaxLength)]
         public string NodeName { get; set; }
         /// <summary>
